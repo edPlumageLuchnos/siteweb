@@ -268,6 +268,20 @@ h6 {
   background-color: #0563bb;
 }
 
+.conteneur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Ajustez la taille du conteneur */
+  width: 100%; /* ou toute autre largeur souhaitée */
+  height: 300px; /* hauteur de votre choix */
+}
+
+.conteneur img {
+  max-width: 100%; /* Assurez-vous que l'image reste dans le conteneur */
+  height: auto;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
