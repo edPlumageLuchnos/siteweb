@@ -1264,46 +1264,19 @@ section {
   font-size: 13px;
 }
 
-blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #3498db;
-  margin: 20px 0;
-  padding: 15px 20px;
-  quotes: "\201C""\201D""\2018""\2019";
-  position: relative;
-  font-family: 'Arial', sans-serif;
-}
-blockquote::before {
-  content: open-quote;
-  font-size: 50px;
-  line-height: 0;
-  position: absolute;
-  top: -10px;
-  left: 10px;
-  color: #ccc;
-}
-blockquote p {
-  display: inline;
-}
-cite {
-  display: block;
-  margin-top: 10px;
-  text-align: right;
-  font-size: 0.9em;
-  color: #666;
-}
-
-.card {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    background-color: #f9f9f9;
+ blockquote {
+    position: relative;
+    padding-left: 50px;
+    font-style: italic;
+    color: #444;
   }
-  .card h2 {
+  blockquote::before {
+    content: '\f10d';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
     color: #3498db;
   }
-
 
