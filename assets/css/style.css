@@ -1263,3 +1263,22 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+ blockquote {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    border-left: 4px solid #3498db;
+    padding-left: 20px;
+    margin: 20px 0;
+    color: #555;
+  }
+  blockquote p {
+    margin: 0;
+  }
+  cite {
+    display: block;
+    text-align: right;
+    font-style: normal;
+    color: #888;
+  }
+
