@@ -1280,3 +1280,10 @@ section {
     color: #3498db;
   }
 
+  .video-container {
+    display: flex;
+    justify-content: center;  /* Centre horizontalement */
+    align-items: center;      /* Centre verticalement */
+    height: 100vh;            /* Optionnel : hauteur de la page */
+  }
+
