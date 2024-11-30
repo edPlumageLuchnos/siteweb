@@ -1287,3 +1287,11 @@ section {
     height: 100vh;            /* Optionnel : hauteur de la page */
   }
 
+    .image-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Pour centrer verticalement */
+    }
+
+
