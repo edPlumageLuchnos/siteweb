@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "EB Garamond", serif;
   color: #272829;
 }
 
@@ -64,6 +64,13 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+.eb-garamond-<uniquifier> {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 /*--------------------------------------------------------------
