@@ -1273,7 +1273,7 @@ section {
   }
   blockquote::before {
     content: '\f10d';
-    font-family: "Open Sans", sans-serif;
+    font-family: "FontAwesome", sans-serif;
     font-weight: 900;
     font-size: 30px;
     position: absolute;
