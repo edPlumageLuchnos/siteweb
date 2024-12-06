@@ -1281,6 +1281,11 @@ section {
     color: #3498db;
   }
 
+blockquote cite {
+    font-style: normal;  /* Supprimer l'italique */
+    font-weight: normal; /* Assurer que le texte n'est pas en gras */
+}
+
   .video-container {
     display: flex;
     justify-content: center;  /* Centre horizontalement */
