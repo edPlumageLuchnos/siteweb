@@ -1272,7 +1272,7 @@ section {
   }
   blockquote::before {
     content: '\f10d';
-    font-family: "EB Garamond";
+    font-family: "Open Sans";
     font-weight: 900;
     font-size: 30px;
     position: absolute;
