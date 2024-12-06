@@ -1294,13 +1294,6 @@ blockquote cite {
   }
 
 
-.container {  /* Remplacez .container par la classe ou l'élément parent contenant l'image */
-    display: flex;
-    justify-content: center;   /* Centre l'image horizontalement */
-    align-items: center;       /* Centre l'image verticalement */
-    height: 100vh;              /* Pour centrer l'image dans toute la hauteur de l'écran */
-}
-
 img {
     max-width: 100%;  /* Optionnel, selon le besoin */
     height: auto;
